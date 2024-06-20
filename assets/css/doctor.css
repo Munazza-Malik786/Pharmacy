@@ -1,0 +1,15 @@
+.doctor-hero .bg-img{
+    background-image: url('../img/bg/ask_doctor_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    max-width: 100%;
+}
+.catagory .bg-img{
+    background-image: url('../img/bg/ask_doctor_category.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+
+}

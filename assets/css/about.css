@@ -1,0 +1,80 @@
+.img-2 {
+  margin-top: 30%;
+}
+
+
+.bg{
+    display: block;
+    /* height: 100vh; */
+    margin: 10% 0;
+}
+.testimonilals .bg-img{
+    background-image: url('../img/bg/customer_feedback_bg.jpg');
+}
+.testimonilals .carousel .flickity-slider{
+    /* left: 0px; */
+    transform: translateX(0) !important;
+    
+ }
+.col-6{
+    transform: translateX(0) !important;
+ }
+ .testimonilals .carousel-cell .bg-img{
+    background-image: url('../img/images/feedback_img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+ }
+ /* ===support=== */
+ .support .row{
+    margin: 0;
+    padding: 0;
+ }
+ .support .bg-img{
+    background-image: url('../img/bg/support_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+ }
+ .clr-div{
+    padding: 35px 0px;
+ }
+ .about{
+    height: 700px;
+ }
+ @media screen and (max-width:1200px) {
+    .support .row{
+        text-align: center;
+        margin: 0 !important;
+        padding: 25px !important;
+     }
+    .support .clr-div{
+        padding: 30px !important;
+     }
+    .support .third{
+       display: none;
+     }
+    .about h3{
+        font-size: 15px;
+     }
+     .about h6{
+        font-size: 12px;
+     }
+      .about {
+        height: 550px !important;
+     }
+      .about .content{
+        margin: 20px !important;
+     }
+     
+ }
+ @media screen and (max-width:720px) {
+
+    .about {
+      height: 1020px !important;
+   }
+}   
+
+ 
